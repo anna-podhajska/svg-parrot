@@ -40,3 +40,9 @@ footer {
   color: #ce5a57;
   line-height: 3.6;
 }
+
+@media (min-width: 1100px) {
+  .svg-container {
+    padding-top: 10%;
+  }
+}
