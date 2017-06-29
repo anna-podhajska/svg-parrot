@@ -1,12 +1,35 @@
-div {
+.svg-container {
+
     width: 200px;
     height: 200px;
-
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
     margin: auto;
+    padding-top: 200px;;
+
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+}
+
+/* footer
+––––––––––––––––––––––––––––––––––––––– */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.FooterBox {
+  border: 5px solid #2F2F31;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #2F2F31;
+  min-height: 10%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 30%;
+  text-align: center;
+}
+.FooterBox a {
+  text-decoration: none;
+  color: #ce5a57;
+  line-height: 3.6;
 }
