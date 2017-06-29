@@ -3,13 +3,19 @@
     width: 200px;
     height: 200px;
     margin: auto;
-    padding-top: 200px;;
+    padding-top: 20%;
 
     /*display: flex;*/
     /*flex-direction: column;*/
     /*justify-content: center;*/
 }
 
+p {
+  padding-top: 50%;
+  font-size: 80%;
+  font-style: italic;
+  text-align: center;
+}
 /* footer
 ––––––––––––––––––––––––––––––––––––––– */
 footer {
@@ -22,11 +28,12 @@ footer {
   border-radius: 2px;
   overflow: hidden;
   background: #2F2F31;
+  text-align: center;
   min-height: 10%;
   padding-bottom: 0;
   margin-bottom: 0;
-  margin-top: 30%;
-  text-align: center;
+  margin-top: 60%;
+
 }
 .FooterBox a {
   text-decoration: none;
